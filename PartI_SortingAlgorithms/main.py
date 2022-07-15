@@ -59,7 +59,7 @@ def merge_sort(arr):
                 arr[k] = L[i]
                 i += 1
             else:
-                arr[k] = R[i]
+                arr[k] = R[j]
                 j += 1
             k += 1
 
